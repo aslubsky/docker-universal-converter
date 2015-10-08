@@ -1,7 +1,6 @@
 FROM pataquets/ubuntu:trusty
 
-# Base 'unoconv' package image.
-# 'unoconv' does not require an X Window server if acting as client.
+#  unoconv + poppler-utils + word-to-markdow (ruby)
 
 RUN \
         apt-get update && \
